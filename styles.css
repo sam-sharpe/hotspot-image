@@ -112,29 +112,36 @@ background-color: rgba(40, 69, 255, 0.65);
 }
 
 .dot.camera {
-
+top: 1%;
+left: 33%;
 }
 
 .dot.police {
-
+left: 29%;
+bottom: 26%;
 }
 
 .dot.numpad {
-
+left: 38%;
+bottom: 12%;
 }
 
 .dot.wifi {
-
+  left: 20%;
+  bottom: 52%;
 }
 
 .dot.street {
-
+  right: 20%;
+  top: 10%;
 }
 
 /*********************************
  * For when .dot has been clicked
 **********************************/
 .dot.active {
+    left: 0;
+    top: 0;
     width: 100%;
     height: 100%;
     border-radius: 0;
